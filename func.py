@@ -90,14 +90,14 @@ while True:
 
         print("\n" * 50)
         result = random.choice(binatang)
-        result = result.upper()
+        
         print("""
 Binatangnya :
 **********************
 * >>>>> {} <<<<< *
 **********************""".format(result))
 
-        print("\n")
+		 
         if x == result:
             uang = uang + taruh
             print(f"""
@@ -136,3 +136,5 @@ Binatangnya :
 
     else:
         print("\nmaaf pilihan anda tidak ada..")
+    
+    
